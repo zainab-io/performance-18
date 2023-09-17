@@ -1,0 +1,36 @@
+*{
+  background-color: #d8a5df;
+}
+i{
+  color: rgb(48, 46, 48);
+  border-bottom: 5px rgb(61, 10, 87);
+}
+input:checked{
+  accent-color: pink;
+  color: rgb(65, 13, 61);
+  height: 20px;
+  width: 20px;
+}
+input:enabled{
+  background-color: rgb(196, 144, 183);
+}
+input:disabled{
+  background-color: rgb(241, 173, 227);
+}
+p:empty{
+  width: 150px;
+  height: 20px;
+  background-color: rgb(194, 128, 169);
+}
+.form1{
+border: 2px dashed #675858; 
+padding: 20px; 
+width: 300px; 
+margin: 0 auto;
+}
+.form2{
+  border: 5px solid #634a62; 
+  padding: 100px; 
+  width: 800px; 
+  margin: 0 auto;
+}
